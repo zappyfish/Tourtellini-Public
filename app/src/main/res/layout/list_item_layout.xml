@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:background="#f0f0f0"
+    android:clickable="true"
+    android:padding="7dip">
+
+    <TextView
+        android:id="@+id/tourName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="The Best Tour "
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tourDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tourName"
+        android:layout_marginLeft="10dp"
+        android:text="The Best Place Ever"
+        android:textSize="14dp" />
+
+</RelativeLayout>
